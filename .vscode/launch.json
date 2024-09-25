@@ -14,8 +14,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open inicio.html",
-            "file": "/media/tarde/SanDisk/DAM/1 DAM/lenguaje de marcas/html + css/proyecto web/html/inicio.html"
+            "name": "Open index.html",
+            "file": "/media/tarde/SanDisk/DAM/1 DAM/lenguaje de marcas/html + css/proyecto web/html/index.html"
         }
     ]
 }
