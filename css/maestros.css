@@ -1,0 +1,130 @@
+.container{
+    height: 280px;
+    width: 1830px;
+    background-color: white;
+    align-content: center;
+}
+.top{
+    height: 200px;
+    width: 1830px;
+    background-color: white;
+}
+.photo{
+    height: 200px;
+    width: 730px;
+    background-color: white;
+    float: left;
+    text-align: right;
+}
+.name{
+    height: 200px;
+    width: 650px;
+    background-color: white;
+    font-size: 100px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.links{
+    height: 70px;
+    width: 1830;
+    background-color: white;
+    display: flex;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.pages{
+    height: 70px;
+    width: 280px;
+    font-size: 30px;
+    background-color: white;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contenedor{
+    width: 1850px;
+    height: 670px;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.rsociales{
+    width: 250px;
+    height: 680px;
+    background-color: #cfcfcf;
+    float: left;
+}
+.contenido{
+    width: 1100;
+    height: 680px;
+    background-color: rgb(235, 235, 235);
+    float: left;
+}
+.formulario{
+    width: 500px;
+    height: 680px;
+    background-color: #cfcfcf;
+    float: right;
+}
+legend{
+    font-size: 30px;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+img{
+    margin-bottom: 16px;
+}
+.cesar{
+    background-color:  rgb(235, 235, 235);
+    width: 530px;
+    height: 66px;
+    float: left;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cesar1{
+    background-image: url(../recursos/cesar\ cordoba1.jpg);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.cesar1:hover{
+    background-image: url(../recursos/cesar\ cordoba2.jpg);
+}
+.jose{
+    background-color:  rgb(235, 235, 235);
+    width: 530px;
+    height: 66px;
+    float: right;
+    margin: 10px;
+}
+.jose1{
+    background-image: url(../recursos/jose.jpg);
+    width: 250px;
+    height: 150px;
+    margin: auto;
+}
+.jose1:hover{
+    background-image: url(../recursos/jose2.jpg);
+}

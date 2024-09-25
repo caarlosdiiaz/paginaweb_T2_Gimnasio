@@ -1,0 +1,103 @@
+.container{
+    height: 280px;
+    width: 1830px;
+    background-color: white;
+    align-content: center;
+}
+.top{
+    height: 200px;
+    width: 1830px;
+    background-color: white;
+}
+.photo{
+    height: 200px;
+    width: 730px;
+    background-color: white;
+    float: left;
+    text-align: right;
+}
+.name{
+    height: 200px;
+    width: 650px;
+    background-color: white;
+    font-size: 100px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.links{
+    height: 70px;
+    width: 1830;
+    background-color: white;
+    display: flex;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.pages{
+    height: 70px;
+    width: 280px;
+    font-size: 30px;
+    background-color: white;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contenedor{
+    width: 1850px;
+    height: 678px;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.rsociales{
+    width: 250px;
+    height: 680px;
+    background-color: #cfcfcf;
+    float: left;
+}
+.contenido{
+    width: 1100px;
+    height: 680px;
+    background-color: rgb(235, 235, 235);
+    align-items: center;
+    float: left;
+}
+.formulario{
+    width: 500px;
+    height: 680px;
+    background-color: #cfcfcf;
+    float: right;
+}
+legend{
+    font-size: 30px;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+img{
+    margin-bottom: 16px;
+}
+table{
+    align-items: center;
+    text-align: center;
+    margin: 110px auto;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 6px;
+    top: 20px;
+}

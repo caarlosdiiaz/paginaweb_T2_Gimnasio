@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalaciones</title>
+    <link rel="stylesheet" href="../css/instalaciones.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="photo"><img src="../recursos/odin.png" width="200px"></div>
+            <div class="name">ODIN GYM</div>
+        </div>
+        <hr color="#CE2222">
+        <div class="links">
+            <div class="pages"><a href="inicio.html">Inicio</a></div>
+            <div class="pages"><a href="clases.html">Clases</a></div>
+            <div class="pages"><a href="maestros.html">Maestros</a></div>
+            <div class="pages"><a href="instalaciones.html">Instalaciones</a></div>
+            <div class="pages"><a href="contacto.html">Contacto</a></div>
+        </div>
+        <hr color="#CE2222">
+    </div>
+    <div class="contenedor">
+        <div class="rsociales">
+            <a href="https://www.facebook.com/odinteamkick"><img src="../recursos/face.png" width="150" height="150"></a>
+            <a href="https://www.instagram.com/odinteamkick"><img src="../recursos/insta.png" width="150" height="150"></a>
+            <a href="https://twitter.com"><img src="../recursos/twi.png" width="150" height="150"></a>
+            <a href="mailto:diazromerocarlos0@gmail.com"><img src="../recursos/correo.png" width="150" height="150"></a>
+        </div>
+        <div class="contenido">
+            <video width="1000px" height="600px" controls>
+                <source src="../recursos/video instalaciones.mp4" type="video/mp4" class="video">
+            </video>
+            <h1>¿Que ofrece nuesto gimnasio?</h1>
+            <ul>
+                <li>Una zona de combate de 12 metros cuadrados.</li>
+                <li>Sacos de boxeo profesionales.</li>
+                <li>Material especializado (guantes, cascos, armas de goma, etc).</li>
+                <li>vestuarios diferenciados por géneros.</li>
+                <li>Una zona de descanso para familias.</li>
+                <li>Balneario</li>
+            </ul>
+        </div>
+        <div class="formulario">
+            <fieldset>
+                <form action="dudas" method="post"></form>
+                    <legend>Si tienes alguna duda Contacta</legend>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" size="15" maxlength="15">
+
+                    <label for="apellido">1er apellido</label>
+                    <input type="text" name="apellido" size="15" maxlength="15">
+
+                    <label for="email">Dirección de correo</label>
+                    <input type="email" name="email" size="20">
+
+                    <label for="mensaje">Escriba su duda</label>
+                    <textarea name="mensaje" id="mensaje" cols="61" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </div>
+    </div>
+</body>
+</html>

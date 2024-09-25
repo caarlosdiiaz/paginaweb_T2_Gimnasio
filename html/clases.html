@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases</title>
+    <link rel="stylesheet" href="../css/clases.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="photo"><img src="../recursos/odin.png" width="200px"></div>
+            <div class="name">ODIN GYM</div>
+        </div>
+        <hr color="#CE2222">
+        <div class="links">
+            <div class="pages"><a href="inicio.html">Inicio</a></div>
+            <div class="pages"><a href="clases.html">Clases</a></div>
+            <div class="pages"><a href="maestros.html">Maestros</a></div>
+            <div class="pages"><a href="instalaciones.html">Instalaciones</a></div>
+            <div class="pages"><a href="contacto.html">Contacto</a></div>
+        </div>
+        <hr color="#CE2222">
+    </div>
+    <div class="contenedor">
+        <div class="rsociales">
+            <a href="https://www.facebook.com/odinteamkick"><img src="../recursos/face.png" width="150" height="150"></a>
+            <a href="https://www.instagram.com/odinteamkick"><img src="../recursos/insta.png" width="150" height="150"></a>
+            <a href="https://twitter.com"><img src="../recursos/twi.png" width="150" height="150"></a>
+            <a href="mailto:diazromerocarlos0@gmail.com"><img src="../recursos/correo.png" width="150" height="150"></a>
+        </div>
+        <div class="contenido">
+            <table border="1">
+                <tr>
+                    <td><b>Clases</b></td>
+                    <td><b>Horarios</b></td>
+                </tr>
+                <tr>
+                    <td>Kickboxing</td>
+                    <td>
+                        Lunes, miercoles y viernes:
+                        16:30-18:00
+                    </td>
+                </tr>
+                <tr>
+                    <td>Krav Maga Kapap</td>
+                    <td>Lunes, miercoles y viernes:
+                        18:20-20:10
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jiu-Jitsu</td>
+                    <td>Martes y Jueves:
+                        16:30-18:00
+                    </td>
+                </tr>
+                <tr>
+                    <td>Boxeo</td>
+                    <td>Martes y Jueves:
+                        18:20-20:10
+                    </td>
+                </tr>
+                <tr>
+                    <td>Exibiciones</td>
+                    <td>
+                        Sabados:
+                        11:00-12:30
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="formulario">
+            <fieldset>
+                <form action="dudas" method="post"></form>
+                    <legend>Si tienes alguna duda Contacta</legend>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" size="15" maxlength="15">
+
+                    <label for="apellido">1er apellido</label>
+                    <input type="text" name="apellido" size="15" maxlength="15">
+
+                    <label for="email">Dirección de correo</label>
+                    <input type="email" name="email" size="20">
+
+                    <label for="mensaje">Escriba su duda</label>
+                    <textarea name="mensaje" id="mensaje" cols="61" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </div>
+    </div>
+</body>
+</html>
